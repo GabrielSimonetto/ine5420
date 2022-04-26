@@ -14,6 +14,8 @@ Tendo o Poetry instalado, basta rodar o seguinte comando para instalar as depend
 
 É necessário ainda o pacote do `Qt`, ferramenta utilizada para o desenvolvimento da interface. Instruções de como instalá-lo em diversas distribuições podem ser encontradas na [Qt Wiki](https://wiki.qt.io/Main).
 
+O projeto pode ser executado com ajuda do _makefile_ com o comando `make app`, e os testes podem ser rodados com `make test`.
+
 ### Sem poetry
 
 Para executar sem a ajuda do `poetry`, basta rodar com
