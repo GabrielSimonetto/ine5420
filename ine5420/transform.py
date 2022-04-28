@@ -22,3 +22,21 @@ def y_viewport_transform(
         (1 - ((y_window - y_window_min) / y_window_max - y_window_min))
         * (y_viewport_max - y_viewport_min)
     )
+
+
+def transform_viewport_coordinates(x, y, window_coordinates, viewport_coordinates):
+    xvp = x_viewport_transform(
+        x,
+        window_coordinates.x_min,
+        window_coordinates.x_max,
+        viewport_coordinates.x_min,
+        viewport_coordinates.x_max,
+    )
+    yvp = y_viewport_transform(
+        y,
+        window_coordinates.y_min,
+        window_coordinates.y_max,
+        viewport_coordinates.y_min,
+        viewport_coordinates.y_max,
+    )
+    return (xvp, yvp)
