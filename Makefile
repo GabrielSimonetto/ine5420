@@ -8,3 +8,7 @@ app:
 .PHONY: convert
 convert: 
 > poetry run pyuic5 $(ui_file) -o $(py_file)
+
+.PHONY: test
+test:
+> poetry run pytest
