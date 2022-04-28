@@ -16,7 +16,7 @@ import pytest
     ],
 )
 def test_x_viewport(x_window, x_window_min, x_window_max, x_viewport_min, x_viewport_max, expected):
-    assert transform.x_viewport(
+    assert transform.x_viewport_transform(
         x_window, x_window_min, x_window_max, x_viewport_min, x_viewport_max) == expected
 
 
@@ -34,5 +34,5 @@ def test_x_viewport(x_window, x_window_min, x_window_max, x_viewport_min, x_view
     ],
 )
 def test_y_viewport(y_window, y_window_min, y_window_max, y_viewport_min, y_viewport_max, expected):
-    assert transform.y_viewport(
+    assert transform.y_viewport_transform(
         y_window, y_window_min, y_window_max, y_viewport_min, y_viewport_max) == expected
