@@ -1,4 +1,4 @@
-def x_viewport(
+def x_viewport_transform(
     x_window,
     x_window_min,
     x_window_max,
@@ -11,7 +11,7 @@ def x_viewport(
     )
 
 
-def y_viewport(
+def y_viewport_transform(
     y_window,
     y_window_min,
     y_window_max,
