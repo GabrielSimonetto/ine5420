@@ -35,12 +35,12 @@
      <rect>
       <x>40</x>
       <y>140</y>
-      <width>81</width>
+      <width>121</width>
       <height>17</height>
      </rect>
     </property>
     <property name="text">
-     <string>Navigation</string>
+     <string>Transformations</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -144,7 +144,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Objects</string>
+     <string>Display File</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">

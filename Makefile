@@ -1,8 +1,12 @@
 .RECIPEPREFIX = >
 
-.PHONY: app
-app: 
-> poetry run python3 ine5420/main.py
+.PHONY: run
+run: 
+> poetry run python src
+
+.PHONY: install
+install: 
+> poetry install
 
 # run pyuic5 -x ... to get an executable py file
 .PHONY: convert
